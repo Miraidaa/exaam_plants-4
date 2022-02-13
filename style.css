@@ -88,8 +88,7 @@ a {
 }
 .section1__article .section1-p {
   font-family: 'Nunito', sans-serif;
-
-  font-style: normal;
+font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 160%;
@@ -135,25 +134,21 @@ a {
 
 .section2__first .section2__first-h1 {
   font-family: 'Nunito', sans-serif;
-
-  padding-bottom: 37px;
+padding-bottom: 37px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 49px;
-
-  color: #1a1a1a;
+color: #1a1a1a;
 }
 
 .selection2__first-p {
   font-family: 'DM Sans', sans-serif;
-
-  font-style: normal;
+font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
-
-  color: #4a4a4a;
+color: #4a4a4a;
 }
 
 .section2__img {
