@@ -11,10 +11,12 @@
 }
 
 .section3 {
+
   display: flex;
   max-width: 1100px;
   max-height: 480px;
   margin: 0 auto;
+  margin-top: 140px;
 }
 
 .section3 .section3__article {
