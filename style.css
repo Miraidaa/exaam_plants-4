@@ -10,12 +10,12 @@
   max-width: 1440px;
 }
 a {
-  font-family: 'Dm sans';
+  font-family: "Dm sans";
   color: black;
   text-decoration: none;
 }
 .header-h2 {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   margin-bottom: 14px;
   size: 24px;
   line-height: 33px;
@@ -33,7 +33,7 @@ a {
 .nav {
   gap: 48px;
   display: flex;
-  font-family: 'Dm sans';
+  font-family: "Dm sans";
   justify-content: space-around;
   font-size: 16px;
   line-height: 21px;
@@ -77,7 +77,7 @@ a {
 }
 
 .section1__article .section1-h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 
   font-style: normal;
   font-weight: bold;
@@ -87,8 +87,8 @@ a {
   margin-bottom: 24px;
 }
 .section1__article .section1-p {
-  font-family: 'Nunito', sans-serif;
-font-style: normal;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 160%;
@@ -100,7 +100,7 @@ font-style: normal;
   background: #066f14;
   border-radius: 4px;
   max-height: 55px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -116,7 +116,7 @@ font-style: normal;
   justify-content: space-between;
   width: 108px;
   height: 82px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -133,22 +133,22 @@ font-style: normal;
 }
 
 .section2__first .section2__first-h1 {
-  font-family: 'Nunito', sans-serif;
-padding-bottom: 37px;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 37px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 49px;
-color: #1a1a1a;
+  color: #1a1a1a;
 }
 
 .selection2__first-p {
-  font-family: 'DM Sans', sans-serif;
-font-style: normal;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
-color: #4a4a4a;
+  color: #4a4a4a;
 }
 
 .section2__img {
@@ -245,8 +245,8 @@ color: #4a4a4a;
 }
 
 .section4 {
-  margin: 0 auto;
   margin-top: 128px;
+  margin-left: 144px;
 }
 
 .section4 .section4-h1 {
@@ -288,8 +288,8 @@ color: #4a4a4a;
 
 .section4 .section4__plants {
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
+  gap: 24px;
 }
 
 .section4__plants .plant1 {
@@ -394,7 +394,7 @@ color: #4a4a4a;
 }
 .feedback-left__text {
   position: static;
-  font-family: "DM-Sans";
+  font-family: DM Sans;
   font-weight: 400;
   font-size: 16px;
   color: #4a4a4a;
@@ -500,7 +500,7 @@ color: #4a4a4a;
 }
 .mailing-info button[type="submit"] {
 }
-.mailing-info button[type='submit'] {
+.mailing-info button[type="submit"] {
   position: absolute;
   width: 98px;
   height: 40px;
@@ -540,6 +540,7 @@ color: #4a4a4a;
   }
   .section3 {
     display: block;
+    margin-left: 0;
   }
   .maintree {
     width: 376px;
@@ -550,6 +551,7 @@ color: #4a4a4a;
   .section4 {
     padding: 0;
     margin-top: 500px;
+    margin-left: 33px;
   }
   .section4-h1 {
     white-space: nowrap;
@@ -567,7 +569,7 @@ color: #4a4a4a;
   .section4__plants {
     flex-wrap: wrap;
     gap: 10px;
-    margin-left: 33px;
+    margin-left: 0px;
     margin-top: 400px;
   }
 
