@@ -498,8 +498,7 @@ a {
   display: flex;
   flex-direction: column;
 }
-.mailing-info button[type="submit"] {
-}
+
 .mailing-info button[type="submit"] {
   position: absolute;
   width: 98px;
