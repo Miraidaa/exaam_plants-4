@@ -24,6 +24,7 @@
 }
 
 .section3__article .article-p {
+  white-space: nowrap;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -39,7 +40,7 @@
   font-size: 40px;
   line-height: 50px;
   padding-top: 12px;
-
+white-space: nowrap;
   color: #1a1a1a;
 }
 
@@ -79,8 +80,6 @@
 .section4 {
   margin: 0 auto;
   margin-top: 128px;
-  max-width: 1152px;
-  max-height: 523px;
 }
 
 .section4 .section4-h1 {
@@ -354,6 +353,64 @@
 }
 /*---------------------media-375-----------------*/
 @media (max-width: 376px) {
+  .article__text {
+    font-size: 12px;
+  }
+
+  .article-title {
+    font-size: 20px;
+  }
+
+  .article-p {
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.section3__article {
+  margin-left: 0px;
+  
+}
+.section3 {
+  display: block;
+}
+.maintree {
+  width: 376px;
+  height: 280px;
+  margin-left: 33px;
+}
+
+.section4 {
+  padding: 0;
+  margin-top: 500px;
+}
+.section4-h1 {
+  white-space: nowrap;
+  margin-left: -380px;
+}
+.section4__nav {
+  flex-wrap: wrap;
+  margin-left: -380px;
+}
+.section4__nav-p1 {
+  white-space: nowrap;
+  margin-left: -395px;
+
+}
+
+.section4__plants {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 33px;
+  margin-top: 400px;
+}
+
+.section4__button {
+  visibility: hidden;
+  margin-top: 0px;
+}
+
+
+
   .feedback-wrapper {
     margin: 0 auto;
     margin-top: 50px;
