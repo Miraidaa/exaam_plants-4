@@ -519,8 +519,51 @@ a {
   position: relative;
   margin-bottom: 36px;
 }
+
+
+
+
 /*---------------------media-375-----------------*/
 @media (max-width: 376px) {
+  .section1 {
+    margin: 0;
+    padding: 0;
+    margin-left: 33px;
+  }
+
+  .header-container {
+    max-width: 376px;
+    margin: 0;
+    padding: 0;
+    margin-left: 33px;
+  }
+  .nav {
+    display: none;
+  }
+  .button__singup {
+    padding: 8px 4px;
+  }
+  .section1-h1 {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .statistics {
+    gap: 0px 20px;
+    font-size: 20px;
+  }
+
+  
+  .first-tree,
+  .section1__leaves {
+    display: none;
+  }
+  .section2 {
+    margin: 0;
+    display: none;
+  }
+  
   .article__text {
     font-size: 12px;
   }
@@ -536,12 +579,14 @@ a {
 
   .section3__article {
     margin-left: 0px;
+    margin-top: 20px;
   }
   .section3 {
     display: block;
     margin-left: 0;
   }
   .maintree {
+    margin-top: 0px;
     width: 376px;
     height: 280px;
     margin-left: 33px;
