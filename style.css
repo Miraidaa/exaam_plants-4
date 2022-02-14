@@ -468,4 +468,55 @@
 .social-img:hover {
   opacity: 0.5;
 }
- 
+/* _____________________footer__________ */
+.footer-container {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+.footer-list {
+  list-style: none;
+  display: flex;
+}
+.footer-menu {
+  width: 306px;
+  margin-right: auto;
+}
+.footer-title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+}
+.footer-info {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #5a5a5a;
+}
+.footer-icons {
+  padding: 12px;
+  margin-top: 22px;
+}
+.footer-icon {
+  background: #edffdd;
+  width: 48px;
+  height: 48px;
+}
+.footer-nav {
+  margin-left: 128px;
+}
+.footer-nav__link {
+  display: block;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 21px;
+  color: #5a5a5a;
+  transition: all 0.2s;
+  margin: 16px 0px;
+  text-decoration: none;
+}
+.footer-nav__link:hover {
+  color: #5f6f06;
+  text-decoration: underline;
+}
