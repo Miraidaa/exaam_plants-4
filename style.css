@@ -206,7 +206,7 @@
   background: #066f14;
   border-radius: 4px;
   padding: 16px 32px;
-} 
+}
 .feedback-wrapper {
   margin: 0 auto;
   margin-top: 128px;
@@ -252,6 +252,7 @@
   margin-top: 20px;
 }
 .feedback-review__block {
+  margin-top: 25px;
   margin-left: 10px;
 }
 .feedback-review__text {
@@ -283,7 +284,7 @@
 .feedback-wrapper__bottom {
   margin: 0 auto;
   margin-top: 154px;
-  max-width: 1140px;
+  max-width: 1040px;
   height: 320px;
   background: #dfffe3;
   border-radius: 6px;
@@ -328,10 +329,10 @@
 .feedback-wrapper__bottom {
   margin-top: 150px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 .mailing-info button[type='submit'] {
-  position: absolute ;
+  position: absolute;
   width: 98px;
   height: 40px;
   background: #066f14;
@@ -347,7 +348,7 @@
   background-color: #48e45b;
 }
 .feedback-lastImg {
-  position:relative;
+  position: relative;
   margin-bottom: 36px;
 }
 /*---------------------media-375-----------------*/
@@ -369,7 +370,7 @@
     flex: none;
   }
   .feedback-left__top {
-    display:block;
+    display: block;
     margin-left: 33px;
   }
   .feedback-left__review {
@@ -381,7 +382,7 @@
     font-size: 20px;
   }
   .feedback-review__block {
-    text-align: center; 
+    text-align: center;
     font-size: 20px;
   }
   .feedback-review__text {
@@ -399,14 +400,12 @@
   }
   .feedback-wrapper__bottom {
     background: none;
-    position:absolute;
-    flex: none; 
+    position: absolute;
+    flex: none;
     margin-left: -30px;
-     
-  } 
- .mailing-block {
+  }
+  .mailing-block {
     display: flex;
-    
   }
   .mailing-block__title {
     font-size: 20px;
@@ -422,7 +421,7 @@
     position: absolute;
     width: 60px;
     height: 20px;
-    right:50px;
+    right: 50px;
     background: #066f14;
     border-radius: 2px;
     border: none;
@@ -430,4 +429,43 @@
     font-size: 12px;
   }
 }
-
+.social-block {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 40px 0 64px;
+}
+.social-block__title {
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  font-family: Nunito;
+  font-weight: 700;
+}
+.social-block__desc {
+  margin: 12px auto 0;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  max-width: 544px;
+}
+.social-icon {
+  position: absolute;
+  margin-top: 85px;
+  left: 15%;
+}
+.social-list {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  transition: 0.2s;
+}
+.social-img {
+  cursor: pointer;
+}
+.social-img:hover {
+  opacity: 0.5;
+}
+ 
