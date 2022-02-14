@@ -21,7 +21,7 @@ a {
   line-height: 33px;
 }
 .header-container {
-  margin: 0 au;
+  margin: 0 auto;
   display: flex;
   width: 1152px;
   display: flex;
@@ -420,6 +420,7 @@ a {
   margin-top: 20px;
 }
 .feedback-review__block {
+  margin-top: 25px;
   margin-left: 10px;
 }
 .feedback-review__text {
@@ -451,7 +452,7 @@ a {
 .feedback-wrapper__bottom {
   margin: 0 auto;
   margin-top: 154px;
-  max-width: 1140px;
+  max-width: 1040px;
   height: 320px;
   background: #dfffe3;
   border-radius: 6px;
@@ -499,7 +500,8 @@ a {
   flex-direction: column;
 }
 
-.mailing-info button[type="submit"] {
+ 
+ .mailing-info button[type='submit'] {
   position: absolute;
   width: 98px;
   height: 40px;
@@ -510,7 +512,7 @@ a {
   border: none;
   transition: 0.2s;
   margin-left: 345px;
-}
+ }
 
 .mailing-info button:hover {
   background-color: #48e45b;
@@ -697,4 +699,100 @@ a {
     margin-left: 250px;
     font-size: 12px;
   }
+}
+
+.social-block {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 40px 0 64px;
+}
+.social-block__title {
+  font-size: 48px;
+  line-height: 57px;
+  text-align: center;
+  font-family: Nunito;
+  font-weight: 700;
+}
+.social-block__desc {
+  margin: 12px auto 0;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  max-width: 544px;
+}
+.social-icon {
+  position: absolute;
+  margin-top: 85px;
+  left: 15%;
+}
+.social-list {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  transition: 0.2s;
+}
+.social-img {
+  cursor: pointer;
+  display: none;
+}
+.social-img:hover {
+  opacity: 0.5;
+}
+/* _____________________footer__________ */
+.footer {
+  flex-direction: column;
+}
+.footer-container {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+.footer-list {
+  list-style: none;
+  display: flex;
+}
+.footer-menu {
+  width: 306px;
+  margin-right: auto;
+}
+.footer-title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+}
+.footer-info {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #5a5a5a;
+}
+.footer-icons {
+  padding: 12px;
+  margin-top: 22px;
+}
+.footer-icon {
+  background: #edffdd;
+  width: 48px;
+  height: 48px;
+}
+.footer-nav {
+  margin-left: 128px;
+}
+.footer-nav__link {
+  display: block;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 21px;
+  color: #5a5a5a;
+  transition: all 0.2s;
+  margin: 16px 0px;
+  text-decoration: none;
+}
+.footer-nav__link:hover {
+  color: #5f6f06;
+  text-decoration: underline;
 }
